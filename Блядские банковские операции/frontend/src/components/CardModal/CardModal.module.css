@@ -1,0 +1,49 @@
+.modal{
+  width: 70vw;
+  height: 70vh;
+  padding: 50px;
+}
+
+.toolip{
+  z-index: 99999;
+}
+.slider{
+  width: 50%;
+}
+
+
+.optionName{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.slider{
+  font-family: 'Courier New', Courier, monospace;
+}
+.card{
+  margin-bottom: 10px;
+  width: 40%;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input{
+  width: 10rem;
+  height: 1rem;
+  font-size: 14px;
+}
+
+.mainButton{
+  margin-top: 10px;
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+  cursor: pointer;
+}
+
+.mainButton:hover{
+  background-color: black;
+  color:white;
+}

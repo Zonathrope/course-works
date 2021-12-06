@@ -1,0 +1,13 @@
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drugshopInfo{
+  border: 5px solid violet;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+}

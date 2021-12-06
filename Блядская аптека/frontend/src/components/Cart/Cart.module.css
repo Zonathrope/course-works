@@ -1,0 +1,49 @@
+.medicine{
+  border: 5px solid violet;
+  padding: 20px;
+  margin: 5px;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.medicineInfo{
+  width: 50%;
+}
+
+.choosenAmount{
+  width: 50px;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+}
+
+.options{
+  display: flex;
+  align-items: center;
+}
+.deleteBtn{
+  margin-top: 5px;
+  width: 50px;
+  border: 3px solid darkred;
+  font-size: 12px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+
+.makeOrderBtn{
+  margin: 20px;
+  width: 100px;
+  padding: 10px;
+  border: 3px solid green;
+  font-size: 12px;
+  background-color: darkgreen;
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+}
+

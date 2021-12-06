@@ -1,0 +1,67 @@
+.container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 50rem;
+  height: 2rem;
+  border: 3px solid darkviolet;
+  color: violet;
+  padding: 5px;
+}
+
+.button{
+  margin-left: 10px;
+  width: 8rem;
+  height: 2rem;
+  border: 3px solid darkviolet;
+  font-size: 12px;
+  background-color: violet;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: darkviolet;
+  color: white;
+}
+
+.medicine{
+  border: 5px solid violet;
+  padding: 20px;
+  margin: 5px;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.medicineInfo{
+  width: 50%;
+}
+
+.choosenAmount{
+  width: 50px;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+}
+
+.addBtn{
+  margin-top: 5px;
+  width: 50px;
+  border: 3px solid darkviolet;
+  font-size: 12px;
+  background-color: violet;
+  cursor: pointer;
+}
