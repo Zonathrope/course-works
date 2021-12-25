@@ -1,0 +1,47 @@
+.body{
+  display: flex;
+  justify-content: center;
+  width: 97vw;
+}
+.container{
+  display: flex;
+  width: 90vw;
+  margin: 50px;
+}
+
+
+.card{
+  text-transform: uppercase;
+  color: darkgreen;
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  height: 15vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 5px solid rgb(19, 99, 19);
+  margin: 10px;
+  min-width: 25%;
+  box-shadow: 0 8px 16px 10px rgba(46, 59, 10, 0.2);
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 10px rgba(46, 59, 10, 0.4);
+}
+
+.info{
+  font-size: 12px;
+}
+
+.imageBlock{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

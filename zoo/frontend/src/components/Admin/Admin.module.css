@@ -1,0 +1,172 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid darkgreen;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.leftBlock {
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+.rightBlock{
+  width: 80%;
+  background-color: lightgreen;
+}
+
+.li{
+  margin: 5px;
+  color: darkgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  border-bottom: 1px solid darkgreen;
+  position: relative;
+}
+
+.deleteZoo{
+  cursor: pointer;
+  color: red;
+  margin-right: 2px;
+  font-weight: 700;
+  border: 2px solid darkred;
+  width: 20%;
+  text-align: center;
+  right: 100%;
+}
+
+.deleteZoo:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.active{
+  color: black;
+  border-bottom: 3px solid darkgreen;
+}
+
+.zone_header{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+  font-weight: 700;
+}
+
+.zone{
+  padding: 5px;
+  border: 2px solid darkgreen;
+  margin-bottom: 10px;
+}
+
+.animals{
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.animal{
+  width: 100%;
+  padding: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalContainer {
+  padding: 20px;
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.field {
+  margin: 5px;
+  border: 3px solid darkgreen;
+  height: 2rem;
+  width: 70%;
+  color: darkgreen;
+  font-weight: 700;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.2);
+  background-color: lightgreen;
+}
+
+.btn {
+  border: 3px solid darkgreen;
+  background-color: lightgreen;
+  font-weight: 700;
+  color: darkgreen;
+  height: 3rem;
+  margin: 5px;
+  width: 5rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  border: 3px solid darkgreen;
+  background-color: darkgreen;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.4);
+  color: white;
+}
+
+.createBtn {
+  cursor: pointer;
+}
+
+.smallForm{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallField{
+  border: 2px solid darkgreen;
+  margin: 5px;
+  color: darkgreen;
+  font-weight: 700;
+  background-color: lightgreen;
+}
+
+.smallBtn{
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  font-weight: 700;
+  cursor: pointer;
+}
+.smallBtn:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.row{
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+.deleteBtn{
+  margin: 3px;
+  background-color: lightgreen;
+  border: 2px solid darkred;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 2px;
+}
+.deleteBtn:hover{
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,137 @@
+.header {
+  margin: 20px;
+  width: 100%;
+  border: 5px solid darkgreen;
+  text-transform: uppercase;
+  color: darkgreen;
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid rgb(19, 99, 19);
+  box-shadow: 0 8px 16px 10px rgba(46, 59, 10, 0.2);
+}
+
+.zone {
+  margin: 20px;
+  width: 100%;
+  border: 5px solid darkgreen;
+  text-transform: uppercase;
+  color: darkgreen;
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid rgb(19, 99, 19);
+  box-shadow: 0 8px 16px 10px rgba(46, 59, 10, 0.2);
+  padding: 20px;
+  width: 100%;
+}
+
+.leftBlock {
+  font-size: 35px;
+}
+
+.image {
+  object-fit: contain;
+  height: 150px;
+}
+
+.animals {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal {
+  width: 100px !important;
+  margin: 8px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid darkgreen;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.2);
+}
+
+.bron {
+  margin: 20px;
+  border: 5px solid darkgreen;
+  text-transform: uppercase;
+  color: darkgreen;
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid rgb(19, 99, 19);
+  box-shadow: 0 8px 16px 10px rgba(46, 59, 10, 0.2);
+  padding: 20px;
+  width: 50%;
+  margin: 20px;
+  border: 5px solid darkgreen;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.2);
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.field {
+  margin: 5px;
+  border: 3px solid darkgreen;
+  height: 2rem;
+  width: 70%;
+  color: darkgreen;
+  font-weight: 700;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.2);
+}
+
+.btn {
+  border: 3px solid darkgreen;
+  background-color: lightgreen;
+  font-weight: 700;
+  color: darkgreen;
+  height: 3rem;
+  margin: 5px;
+  text-align: center;
+  width: 10rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  border: 3px solid darkgreen;
+  background-color: darkgreen;
+  box-shadow: 0 8px 10px 3px rgba(46, 59, 10, 0.4);
+  color: white;
+}
+
+.getBack {
+  position: fixed;
+  padding: 5px;
+  top: 5%;
+  left: 5%;
+  border: 3px solid darkgreen;
+  font-weight: 700;
+  width: 70px;
+  text-align: center;
+  color: darkgreen;
+  cursor: pointer;
+  transition: 0.1s;
+  font-weight: 700;
+  z-index: 10;
+  background-color: white;
+}
+
+

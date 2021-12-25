@@ -7,9 +7,11 @@ import { useGetUser } from './lib/query/user'
 function App() {
   const {data, isLoading, refetch} = useGetUser(localStorage.getJWT())
 
+
   if(isLoading){
     return (<>Fetching...</>)
   }
+  console.log(data)
 
   return (
     <div>

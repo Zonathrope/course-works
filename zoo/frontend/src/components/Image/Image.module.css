@@ -1,0 +1,13 @@
+.img{
+  object-fit: contain;
+  width: 100%;
+  height: 150px;
+}
+
+.icon{
+  object-fit: contain;
+  width: 200px;
+  height: 150px;
+  font-size: 5em !important;
+  color: red;
+}
