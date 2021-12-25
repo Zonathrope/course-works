@@ -1,0 +1,29 @@
+zoo
+  name: string
+  rating: number
+  location_id: _id
+
+zoo_location:
+  country
+  city
+  street
+
+zone
+  type: string
+  part of world: string
+
+animal
+  name: string
+  specie: string
+  year_old: number
+
+zoo_zone
+  zoo_id: _id
+  zone_id: _id
+  animal_id: _id
+
+order
+  name: string
+  email: string
+  phone: string
+  zoo: _id
